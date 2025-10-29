@@ -1,0 +1,3 @@
+cadena = "  Hola Mundo Python  "
+cadena_procesada = cadena.lower().replace(" ", "")
+print(cadena_procesada)

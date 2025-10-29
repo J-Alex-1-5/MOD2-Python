@@ -1,0 +1,26 @@
+# lita 
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title("Ejemplo entradad")
+ventana.configure(bg="cyan")
+ventana.geometry("400x300")
+
+etiqueta = tk.Label(ventana, text="nombre")
+etiqueta.pack()
+
+texto = tk.Entry(ventana)
+texto.configure(bg="purple1", fg="white", font=("Arial", 12))
+texto.pack()
+
+
+texto.insert(0, "Escribe tu nombre")
+
+def capturar_texto():
+    entrada = texto.get()
+    etiqueta.config(text=entrada)
+
+boton = tk.Button(ventana, text="capturar texto", command=capturar_texto)
+boton.pack()
+
+ventana.mainloop()

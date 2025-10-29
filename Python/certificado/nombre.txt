@@ -1,0 +1,4 @@
+nombres = ["Alejandro", "Luis", "Maria", "Fernanda", "Jose", "Gabriela"]
+for nombre in nombres:
+    if len(nombre) > 5:
+        print(nombre)

@@ -1,0 +1,6 @@
+try:
+    texto = input("Introduce un número entero: ")
+    numero = int(texto)
+    print(f"El número ingresado es: {numero}")
+except ValueError:
+    print("Error: No se pudo convertir el texto a un número entero.")

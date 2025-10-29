@@ -1,0 +1,6 @@
+id,nombre,categoría,precio
+201,Camiseta,Ropa,12.50
+202,Pantalón,Ropa,20.00
+203,Gorra,Accesorios,7.00
+204,Zapatos,Calzado,45.00
+205,Mochila,Accesorios,25.00

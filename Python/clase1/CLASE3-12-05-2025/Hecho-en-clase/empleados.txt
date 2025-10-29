@@ -1,0 +1,8 @@
+id,nombre,departamento,salario
+1,Juan Pérez,Ventas,1500
+2,Ana Gómez,Marketing,1700
+3,Carlos Ruiz,TI,2100
+4,Lucía Ramos,Recursos Humanos,1600
+5,Pedro Díaz,Ventas,1550
+6,Elena Torres,TI,2200
+7,Raúl Mendoza,Marketing,1650

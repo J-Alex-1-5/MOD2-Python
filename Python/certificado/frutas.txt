@@ -1,0 +1,11 @@
+frutas = {
+            "manzana": 0.8,
+            "pera": 1.2,
+            "plátano": 0.9,
+            "kiwi": 1.5,
+            "naranja": 1.1
+        }
+
+        for fruta, precio in frutas.items():
+            if precio > 1:
+                print(f"{fruta}: {precio}")

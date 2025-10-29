@@ -1,0 +1,5 @@
+id,nombre,precio
+101,gorra,5
+102,camiseta,20
+103,pantalon,15
+104,bufanda, #Fila con error

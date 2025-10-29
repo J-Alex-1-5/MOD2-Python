@@ -1,0 +1,6 @@
+producto,cantidad_disponible
+Camiseta,25
+Pantalón,18
+Gorra,40
+Zapatos,12
+Mochila,15

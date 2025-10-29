@@ -1,0 +1,6 @@
+id;nombre;email
+101;Mario López;mario@example.com
+102;Sandra Rivera;sandra@example.com
+103;Alberto Díaz;alberto@example.com
+104;Verónica Gómez;veronica@example.com
+105;Daniela Ruiz;daniela@example.com

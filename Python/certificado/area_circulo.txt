@@ -1,0 +1,4 @@
+import math
+area = 5
+radio = math.sqrt(area / math.pi)
+print(f"El radio de un círculo con área {area} es: {radio:.4f}")

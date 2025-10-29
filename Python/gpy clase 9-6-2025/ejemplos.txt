@@ -1,0 +1,45 @@
+# lita 
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title("Ejemplo Listbox")
+
+listbox = tk.Listbox(ventana)
+for item in ["Python", "Java", "C++", "JavaScript"]:
+    listbox.insert(tk.END, item)
+listbox.pack()
+
+ventana.mainloop()
+
+
+# casilla de verificacion
+
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title("Ejemplo Checkbutton")
+
+var1 = tk.BooleanVar()
+var2 = tk.BooleanVar()
+
+check1 = tk.Checkbutton(ventana, text="Opción A", variable=var1)
+check2 = tk.Checkbutton(ventana, text="Opción B", variable=var2)
+
+check1.pack()
+check2.pack()
+
+ventana.mainloop()
+
+
+# control deslizante 
+
+
+import tkinter as tk
+
+ventana = tk.Tk()
+ventana.title("Ejemplo Scale")
+
+slider = tk.Scale(ventana, from_=0, to=100, orient=tk.HORIZONTAL)
+slider.pack()
+
+ventana.mainloop()
